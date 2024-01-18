@@ -70,11 +70,11 @@ img {
     0%,
     100% {
         color: #B49646;
-        text-shadow: 0 0 2px #fff;
+        text-shadow: 0 0 2px #E6DCD2;
     }
 
     50% {
-        color: #fff;
+        color: #E6DCD2;
         text-shadow: 0 0 4px #B49646;
     }
 }
