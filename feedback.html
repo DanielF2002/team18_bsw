@@ -40,36 +40,78 @@
         <nav>
             <p>home menu reservation feedback</p>
         </nav>
-        <main class="row">
-            <form class="row col-12 col-xl-6">
-                <h1>Please leave your feedback:</h1>
-                <div class="form-group">
-                    <label for="name" class="fs-5">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Please enter your name.">
+        <main>
+            <div class="container row">
+                <form class="row col-12 col-lg-6">
+                    <h1>Please leave your feedback:</h1>
+                    <div class="form-group">
+                        <label for="name" class="fs-5">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Please enter your name.">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="fs-5">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="yourname@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="topic" class="fs-5">Topic</label>
+                        <input type="text" class="form-control" id="topic" placeholder="Please enter the topic.">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="fs-5">Message</label>
+                        <textarea class="form-control" id="message" rows="3"
+                            placeholder="Leave your feedback here."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                </form>
+                <aside class="row col-lg-6 d-none d-lg-block">
+                    <div class="logo col-12">
+                        <p class="logo-part-1">
+                            The pure taste of
+                        </p>
+                        <p class="logo-part-2">
+                            Midnight Sun Bistro
+                        </p>
+                    </div>
+                </aside>
+            </div>
+            <div class="d-flex justify-content-between cards">
+                <div class="card">
+                    <div class="d-flex justify-content-center">
+                        <img src="/images/profile1.png" class="card-img-top rounded-circle" alt="Mina's avatar">
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title">Mina</h2>
+                        <p class="card-text">I had an amazing dining experience at that restaurant.</p>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="email" class="fs-5">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="yourname@email.com">
+                <div class="card">
+                    <div class="d-flex justify-content-center">
+                        <img src="/images/profile2.png" class="card-img-top rounded-circle" alt="Mina's avatar">
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title">Mina</h2>
+                        <p class="card-text">I had an amazing dining experience at that restaurant.</p>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="topic" class="fs-5">Topic</label>
-                    <input type="text" class="form-control" id="topic" placeholder="Please enter the topic.">
+                <div class="card">
+                    <div class="d-flex justify-content-center">
+                        <img src="/images/profile3.png" class="card-img-top rounded-circle" alt="Mina's avatar">
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title">Mina</h2>
+                        <p class="card-text">I had an amazing dining experience at that restaurant.</p>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="message" class="fs-5">Message</label>
-                    <textarea class="form-control" id="message" rows="3"
-                        placeholder="Leave your feedback here."></textarea>
+                <div class="card">
+                    <div class="d-flex justify-content-center">
+                        <img src="/images/profile4.png" class="card-img-top rounded-circle" alt="Mina's avatar">
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-title">Mina</h2>
+                        <p class="card-text">I had an amazing dining experience at that restaurant.</p>
+                    </div>
                 </div>
-                <button type="submit" class="btn btn-primary btn-block">Submit</button>
-            </form>
-            <aside class="row col-6 d-none d-lg-block">
-                <p class="logo-part-1">
-                    The pure taste of
-                </p>
-                <p class="logo-part-2">
-                    Midnight Sun Bistro
-                </p>
-            </aside>
+            </div>
             <footer>
                 <p>Here is footer</p>
             </footer>

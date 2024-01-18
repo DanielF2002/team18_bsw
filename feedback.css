@@ -1,0 +1,44 @@
+.logo-part-1 {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.logo {
+    margin-top: 15rem;
+}
+
+.cards{
+    max-width: 100%;
+    overflow-x: scroll;
+}
+
+.card {
+    background: #B49646;
+    width: 16rem;
+    flex-shrink: 0;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+@media (min-width: 992px) {
+    .cards {
+        overflow-x: hidden;
+    }
+}
+
+.card-title, .card-body {
+    color: #0A1414;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-body {
+    font-size: 1.2rem;
+}
+
+img {
+    max-width: 60%;
+    margin-top: 1rem;
+}
