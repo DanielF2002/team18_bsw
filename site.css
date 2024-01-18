@@ -33,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn:hover, .btn:active {
     background-color: #A08232 !important;
     border-color: #A08232 !important;
+    color: #E6DCD2;
 }
 
 label {
