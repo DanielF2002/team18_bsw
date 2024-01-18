@@ -1,0 +1,81 @@
+body {
+    background-color: #0A1414;
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+    color: #E6DCD2;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Markazi Text', serif;
+    color: #B49646;
+}
+
+.logo-part-1 {
+    font-family: 'Freehand', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+.logo-part-2 {
+    font-family: 'Island Moments', cursive;
+    color: #B49646;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.btn {
+    background-color: #B49646;
+    border-color: #B49646;
+    color: #0A1414;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Markazi Text', serif;
+    font-size: 2rem; /* Adjust the font size for smaller buttons */
+    text-decoration: underline;
+}
+
+.btn:hover, .btn:active {
+    background-color: #A08232 !important;
+    border-color: #A08232 !important;
+}
+
+.menu-cards {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+}
+
+.menu-card {
+    width: 30%; /* Adjust the width of each card */
+    margin: 1rem;
+    text-align: center;
+    position: relative;
+}
+
+.menu-card img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain the image aspect ratio */
+    border-radius: 8px; /* Optional: Add a border-radius for a rounded look */
+    overflow: hidden;
+}
+
+.menu-icon {
+    display: block;
+    margin: 2rem auto; /* Center align the icon */
+}
+
+.menu-card p {
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 768px) {
+    .menu-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-card {
+        width: 80%; /* Adjust the width of each card for narrow screens */
+    }
+}
