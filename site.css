@@ -42,4 +42,11 @@ label {
 
 .form-control {
     background: #E6DCD2;
+    border-color: #B49646;
+}
+
+.form-control:focus {
+    background: #E6DCD2;
+    border-color: #B49646;
+    color: #0A1414;
 }
