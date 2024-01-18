@@ -1,0 +1,45 @@
+body {
+    background-color: #0A1414;
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+    color: #E6DCD2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Markazi Text', serif;
+    color: #B49646;
+}
+
+.logo-part-1 {
+    font-family: 'Freehand', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+.logo-part-2 {
+    font-family: 'Island Moments', cursive;
+    color: #B49646;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.btn{
+    background-color: #B49646;
+    border-color: #B49646;
+    color: #E6DCD2;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.btn:hover, .btn:active {
+    background-color: #A08232 !important;
+    border-color: #A08232 !important;
+}
+
+label {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    background: #E6DCD2;
+}
