@@ -8,6 +8,7 @@
 }
 
 .cards{
+    margin-top: 5rem;
     max-width: 100%;
     overflow-x: scroll;
 }
