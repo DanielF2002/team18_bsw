@@ -3,8 +3,8 @@ body {
     font-family: 'Karla', sans-serif;
     font-size: 1rem;
     color: #E6DCD2;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -109,13 +109,13 @@ main a:hover, main a:active, nav li {
 
 .logo-part-1 {
     font-family: 'Freehand', cursive;
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-align: center;
 }
 .logo-part-2 {
     font-family: 'Island Moments', cursive;
     color: #B49646;
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
 }
 
