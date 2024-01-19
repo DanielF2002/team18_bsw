@@ -17,6 +17,11 @@ main, footer {
     padding-bottom: 2rem;
 }
 
+nav {
+    padding: 0 !important;
+    font-family: 'Markazi Text', serif;
+}
+
 .logo-part-1, .logo-part-2 {
     padding-bottom: 0 !important;
     margin-bottom: 0 !important;
@@ -93,6 +98,11 @@ main a, main a:visited {
     color: #E6DCD2;
 }
 
+nav li:hover, nav li:active {
+    color: #A08232;
+    text-decoration: underline;
+}
+
 main a:hover, main a:active, nav li {
     color: #B49646;
 }
@@ -120,4 +130,8 @@ footer div {
 
 footer p {
     margin-bottom: 0.2rem;
+}
+
+nav, main {
+    border-bottom: 1px solid #B49646;
 }
