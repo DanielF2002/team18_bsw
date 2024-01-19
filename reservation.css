@@ -1,16 +1,21 @@
 .custom-padding {
-    padding-right: 150px;
+    padding-right: 9.375rem;
+}
+
+.working-hours {
+    padding-top: 1.875rem;
 }
 
 .seatings{
-    padding-top: 50px;
+    padding-top: 3.125rem;
 }
 
 .aside{
-    padding-top: 50px;
+    padding-top: 3.125rem;
     font-size: 0.75rem;
 }
 
 .additional-info{
-    padding-top: 50px;
+    padding-top: 2rem;
 }
+
