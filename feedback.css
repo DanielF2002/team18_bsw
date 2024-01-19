@@ -1,9 +1,4 @@
-.logo-part-1 {
-    padding-bottom: 0 !important;
-    margin-bottom: 0 !important;
-}
-
-.logo {
+main .logo {
     margin-top: 15rem;
 }
 
@@ -44,41 +39,4 @@ img {
         margin-top: 5rem;
         overflow-x: hidden;
     }
-}
-
-@keyframes gentleShine-part-1 {
-
-    0%,
-    100% {
-        color: #E6DCD2;
-        text-shadow: 0 0 2px #B49646;
-    }
-
-    50% {
-        color: #B49646;
-        text-shadow: 0 0 4px #E6DCD2;
-    }
-}
-
-.logo-part-1 {
-    animation: gentleShine-part-1 5s ease-in-out infinite;
-}
-
-
-@keyframes gentleShine-part-2 {
-
-    0%,
-    100% {
-        color: #B49646;
-        text-shadow: 0 0 2px #E6DCD2;
-    }
-
-    50% {
-        color: #E6DCD2;
-        text-shadow: 0 0 4px #B49646;
-    }
-}
-
-.logo-part-2 {
-    animation: gentleShine-part-2 5s ease-in-out infinite;
 }

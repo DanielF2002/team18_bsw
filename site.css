@@ -3,6 +3,8 @@ body {
     font-family: 'Karla', sans-serif;
     font-size: 1rem;
     color: #E6DCD2;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -10,22 +12,20 @@ h1, h2, h3, h4, h5, h6 {
     color: #B49646;
 }
 
-.logo-part-1 {
-    font-family: 'Freehand', cursive;
-    font-size: 2rem;
-    text-align: center;
+main, footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
-.logo-part-2 {
-    font-family: 'Island Moments', cursive;
-    color: #B49646;
-    font-size: 4rem;
-    text-align: center;
+
+.logo-part-1, .logo-part-2 {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 .btn{
     background-color: #B49646;
     border-color: #B49646;
-    color: #0A1414;
+    color: #0A1414 !important;
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
@@ -52,10 +52,72 @@ label {
     color: #0A1414;
 }
 
-a, a:visited {
+@keyframes gentleShine-part-1 {
+
+    0%,
+    100% {
+        color: #E6DCD2;
+        text-shadow: 0 0 2px #B49646;
+    }
+
+    50% {
+        color: #B49646;
+        text-shadow: 0 0 4px #E6DCD2;
+    }
+}
+
+header .logo-part-1 {
+    animation: gentleShine-part-1 5s ease-in-out infinite;
+}
+
+
+@keyframes gentleShine-part-2 {
+
+    0%,
+    100% {
+        color: #B49646;
+        text-shadow: 0 0 2px #E6DCD2;
+    }
+
+    50% {
+        color: #E6DCD2;
+        text-shadow: 0 0 4px #B49646;
+    }
+}
+
+header .logo-part-2 {
+    animation: gentleShine-part-2 5s ease-in-out infinite;
+}
+
+main a, main a:visited {
     color: #E6DCD2;
 }
 
-a:hover, a:active {
+main a:hover, main a:active, nav li {
     color: #B49646;
+}
+
+.logo-part-1 {
+    font-family: 'Freehand', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+.logo-part-2 {
+    font-family: 'Island Moments', cursive;
+    color: #B49646;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.header-logo a, .header-logo a:hover, .header-logo a:visited, .header-logo a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer div {
+    margin-bottom: 1rem;
+}
+
+footer p {
+    margin-bottom: 0.2rem;
 }
