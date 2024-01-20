@@ -102,12 +102,12 @@ header .logo-part-2 {
     animation: gentleShine-part-2 5s ease-in-out infinite;
 }
 
-/* main a,
-main a:visited */
-/* footer p a,
-footer p a:visited {
+
+main a,
+main a:visited{
     color: #E6DCD2;
-} */
+
+}
 
 nav li:hover,
 nav li:active {
