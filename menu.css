@@ -1,26 +1,36 @@
-main {
-    padding-bottom: 7rem;
-}
-
-a, a:hover, a:active, a:visited {
+a,
+a:hover,
+a:active,
+a:visited {
     text-decoration: none;
 }
 
-.menu-pic {
-    max-width: 60%;
+.menu-card {
+    margin: 0.5rem;
 }
 
-.menu-card {
+.menu-border {
+    max-width: 70%;
     border-radius: 10px;
     border: 1px solid #B49646;
-    padding-top:0.5rem;
-    padding-bottom: 0.5rem;
-    margin:0.5rem;
-    margin-right: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.menu-pic {
+    max-width: 80%;
+}
+
+#center-image {
+    border-radius: 10px;
 }
 
 @media (min-width: 992px) {
-    .menu-card {
+    main {
+        padding-bottom: 6rem;
+    }
+
+    .menu-border {
         border: none;
     }
 }
