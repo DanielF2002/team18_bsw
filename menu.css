@@ -1,7 +1,7 @@
-a,
-a:hover,
-a:active,
-a:visited {
+.menu-cards a,
+.menu-cards a:hover,
+.menu-cards a:active,
+.menu-cards a:visited {
     text-decoration: none;
 }
 
