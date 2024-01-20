@@ -1,17 +1,13 @@
-aside {
-    padding: 1rem;
+main {
+    padding-bottom: 7rem;
 }
 
 a, a:hover, a:active, a:visited {
     text-decoration: none;
 }
 
-.menu-icon {
-    max-width: 25%;
-}
-
-.course {
-    max-width: 20%;
+.menu-pic {
+    max-width: 60%;
 }
 
 .menu-card {
@@ -27,4 +23,9 @@ a, a:hover, a:active, a:visited {
     .menu-card {
         border: none;
     }
+}
+
+#center-image {
+    max-width: 100%;
+    height: auto;
 }
