@@ -5,8 +5,12 @@
     text-decoration: none;
 }
 
-.menu-card {
-    margin: 0.5rem;
+.menu-item {
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    
 }
 
 .menu-border {
@@ -17,13 +21,14 @@
     padding-bottom: 1rem;
 }
 
-.menu-pic {
-    max-width: 80%;
+.menu-item img {
+    max-width: 12rem;
+    padding: 2rem 2rem;
+    border-radius: 2.5rem;
+    margin-right: 1rem;
 }
 
-#center-image {
-    border-radius: 10px;
-}
+
 
 @media (min-width: 992px) {
     main {
@@ -35,7 +40,5 @@
     }
 }
 
-#center-image {
-    max-width: 100%;
-    height: auto;
-}
+
+
